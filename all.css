@@ -68,7 +68,7 @@ h1{
     margin-bottom: 48px;
 }
 
-.container h2{
+.title{
     font-size: 32px;
     line-height: 45px;
     padding: 8px;
@@ -76,7 +76,7 @@ h1{
     margin-bottom: 16px;
 }
 
-.container h2 span{
+.title span{
     color: #A00404;
     font-size: 24px;
     line-height: 32px;
@@ -102,21 +102,27 @@ h1{
     padding-top: 24px;
     padding-bottom: 36px;
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .skill .container{
     width: 996px;
 }
 
-.skill h2{
+.subtitle{
+    font-size: 32px;
+    line-height: 45px;
+    padding: 8px;
     color: white;
-    text-align: center;
     border-bottom: 1px solid white;
     margin-bottom: 37px;
 }
 
-.skill h2 span{
+.subtitle span{
     color: white;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 16px;
 }
 
 .skill ul{
@@ -165,23 +171,9 @@ h1{
     background: #415165;
     padding-top: 24px;
     padding-bottom: 36px;
-}
-
-.footer h2{
     color: white;
     text-align: center;
-    margin-bottom: 32px;
-    border-bottom: 1px solid white;
 }
-
-.footer h2 span{
-    color: white;
-}
-
-.footer ul{
-    text-align: center;
-}
-
 .footer a {
     text-decoration: none;
     color: white;
@@ -189,8 +181,8 @@ h1{
     line-height: 36px;
 }
 
-.footer {
-    color: white;
+.footer .subtitle{
+    margin-bottom: 32px;
 }
 
 .footer li{
